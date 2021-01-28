@@ -1,13 +1,13 @@
 /** colores */
 /** fuentes */
-.blog .title {
+.blog .title, .jkBlog .title {
   font-family: "Alegreya", serif;
   color: #135359;
   display: flex;
-  font-size: 25px; }
+  font-size: 30px; }
 
 .blog {
-  background-color: whitesmoke;
+  background-color: red;
   width: 30%;
   padding: 30px;
   display: flex; }
@@ -32,6 +32,39 @@
         .blog .process-list .process .process-icon img {
           height: 100%; }
   .blog button {
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 12px;
+    width: 180px;
+    margin-bottom: 15px; }
+
+.jkBlog {
+  background-color: red;
+  width: 30%;
+  padding: 30px;
+  display: flex; }
+  .jkBlog .process-list {
+    margin-top: 20px;
+    margin-bottom: 36px; }
+    .jkBlog .process-list .process {
+      margin-bottom: 25px; }
+      .jkBlog .process-list .process > div > h3 {
+        color: red;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-weight: 500; }
+      .jkBlog .process-list .process > div > p {
+        color: #135359;
+        margin: 0; }
+      .jkBlog .process-list .process .process-icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        text-align: center; }
+        .jkBlog .process-list .process .process-icon img {
+          height: 100%; }
+  .jkBlog button {
     height: auto;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
